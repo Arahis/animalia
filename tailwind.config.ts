@@ -17,6 +17,7 @@ export default {
           "100": "hsl(230 20% 94%)",
           "200": "hsl(232 50% 65%)",
           DEFAULT: "hsl(var(--primary))",
+          // delete foreground key if you don't want to use it
           foreground: "hsl(var(--primary-foreground))",
         },
         black: {
@@ -24,6 +25,9 @@ export default {
         },
         white: {
           DEFAULT: "hsl(var(--white))",
+        },
+        gray: {
+          DEFAULT: "hsl(var(--gray))",
         },
         card: {
           DEFAULT: "hsl(var(--card))",
